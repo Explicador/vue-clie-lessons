@@ -3,17 +3,22 @@
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
-                <h1>Example page</h1>
-                <h3>Start designing your landing page here.</h3>
+                <h1>José Eugénio Seie</h1>
+                <h3>Asseguir irei me apresentar de forma resumida!</h3>
                 <br />
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-neutral btn-round"><i class="fa fa-play"></i>Watch video</a>
-                <button type="button" class="btn btn-outline-neutral btn-round">Download</button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-neutral btn-round"><i class="fa fa-play"></i>Saber Mais</a>
+                <button @click="baixarCV" type="button" class="btn btn-outline-neutral btn-round">Baixar o CV</button>
             </div>
         </div>
     </div>
 </template>
 <script>
 export default {
+  methods: {
+    baixarCV () {
+      alert('O CV ainda não esta pronto para donwload, \n\nVolte a baixar dentro de dias. \n\n\nObrigado.')
+    }
+  }
 }
 </script>
 <style></style>
