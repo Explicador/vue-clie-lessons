@@ -1,5 +1,5 @@
 <template>
-    <div class="page-header" data-parallax="true" style="background-image: url('../../assets/img/daniel-olahh.jpg');">
+    <div class="page-header" data-parallax="true" style="background-image: url('https://demos.creative-tim.com/paper-kit-2/assets/img/daniel-olahh.jpg');">
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">

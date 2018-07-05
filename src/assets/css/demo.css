@@ -71,7 +71,7 @@
 
 }
 .navigation-example{
-    background-image: url('../img/ilya-yakover.jpg');
+    background-image: url('https://demos.creative-tim.com/paper-kit-2/img/ilya-yakover.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -232,7 +232,7 @@
     padding-top: 20% !important;
 }
 .demo-header-image{
-    background-image: url('../img/city.jpg');
+    background-image: url('https://demos.creative-tim.com/paper-kit-2/img/city.jpg');
 }
 .demo-header .motto{
     color: #FFFFFF;

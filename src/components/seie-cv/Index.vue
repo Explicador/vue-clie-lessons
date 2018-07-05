@@ -1,7 +1,7 @@
 <template>
   <div class="">
-      <header></header>
-      <overview></overview>
+      <div id="app-header"><app-header></app-header></div>
+      <div id="app-overview"><app-overview></app-overview></div>
   </div>
 </template>
 
@@ -10,8 +10,8 @@ import Header from './Header.vue'
 import OverView from './OverView.vue'
 export default {
   components: {
-    'header': Header,
-    'overview': OverView
+    'app-header': Header,
+    'app-overview': OverView
   },
   data () {
     return {
