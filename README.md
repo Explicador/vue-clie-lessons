@@ -2,6 +2,9 @@
 
 > Projecto Teste e CV VueJS
 
+## Template Location
+https://demos.creative-tim.com/paper-kit-2/index.html?_ga=2.27749628.1560417092.1530731918-674674876.1530731918
+
 ## Build Setup
 
 ``` bash

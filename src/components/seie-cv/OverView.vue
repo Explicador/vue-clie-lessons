@@ -6,7 +6,7 @@
                 <h1>José Eugénio Seie</h1>
                 <h3>Asseguir irei me apresentar de forma resumida!</h3>
                 <br />
-                <a href="#nop" class="btn btn-outline-neutral btn-round"><i class="fa fa-play"></i>Continuar</a>
+                <a href="#app-profile" class="btn btn-outline-neutral btn-round"><i class="fa fa-play"></i>Continuar</a>
                 <button @click="baixarCV" type="button" class="btn btn-outline-neutral btn-round">Baixar o CV</button>
             </div>
         </div>
