@@ -1,0 +1,397 @@
+/* CSS Document */
+/* Estilizacao dos elementos da tela principal*/
+
+header {
+	background: #D86A39;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/* Estilizacao do Menu*/
+.col-md-3 {
+	padding: 0;
+}
+.indisp {
+	color: white;
+	background: #D86A39;
+	padding: 3px 5px;
+	border-radius: 7px;
+	font-weight: bold;
+	font-size: 7pt;
+}
+.menu  {
+	background: rgba(35,35,35,1.00);
+	border: solid 0.3px rgba(136,133,128,1.00);
+	z-index: 1;
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	position: fixed;
+}
+
+.aside-contact, .aside-menu  {
+	background: #D86A39;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	right: 10px;
+	top: 10px;
+	position: fixed;
+	float: left;
+	z-index: 1;
+	border-radius: 100px;
+}
+.aside-contact {
+	top: 85%;
+	background-color: #D86A39;
+	display: inline-block;
+}
+.aside-contact:hover {
+	background: #fff;
+	border: 2px solid #000;
+}
+
+.aside-menu > span  {
+	background: white;
+	width: 10px;
+	height: 2px;
+	margin: 5px;
+	
+}
+
+@media screen and (max-width: 991px){
+	.menu  {
+		background: rgba(35,35,35,1.00);
+		border: solid 0.3px rgba(136,133,128,1.00);
+		z-index: 1;
+		width: 250px;
+		margin-top: 0px;
+		right: 10px;
+		position: fixed;
+	}
+	.menu > section > img {
+		width: 100px;
+		margin: 0;
+		border-radius: 100px;
+	}
+	.section-space {
+		height: 50px;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+}
+#section-list {
+	width: 90%;
+}
+.imenu > a, .imenu {
+	text-decoration: none;
+	text-align: right;
+	color: white;
+	list-style: none;
+	padding: 10px 0;
+	
+}
+.itensborder {
+	border-bottom: 1px solid rgba(136,133,128,1.00);
+}
+
+.imenu > a:hover, .imenu:hover {
+	color: rgba(216,106,57,1.00);	
+}
+.selecionado:hover {
+	color: white;
+}
+.selecionado {
+	background: rgba(216,106,57,1.00);
+	border-radius: 20px;
+	padding: 2% 8%; 
+}
+/* Estilizacao da section direita do Menu*/
+
+
+.cabecalho-div01  {
+	height: 700px;	
+}
+.cabecalho-div01 > p {
+	padding: 25px;
+}
+.cabecalho-div01 > p > a {
+	color: #D86A39;
+	text-decoration: none;
+}
+.menu-nomes {
+	top: 28%;
+	font-size: 1.8em;
+}
+h3 {
+	color: #85B448;
+	margin: -5px 0;
+}
+h1, h3 {
+	font-size: 2em;
+}
+.li-cv-resumo {
+	height: 150px;
+	padding-top: 10%;
+	text-align: left;
+}
+.li-cv-resumo > li a {
+	text-decoration: none;
+}
+.li-cv-resumo > li:first-child a{
+	font-size: 15px;
+	padding-right: 25px;
+	border-radius: 50px;
+	background: #D86A39;
+	color: white;
+	padding: 20px 35px;
+}
+
+.li-cv-resumo > li:last-child a{
+	font-size: 15px;
+	padding: 5px;
+	color: white;
+}
+@media screen and (max-width: 514px) {
+	.menu-nomes {
+		top: 10%;
+		font-size: 1.8em;
+	}
+	h3 {
+		font-size: 1em;
+		padding: 15px 0;
+	}
+	#cvv > a {
+		color: rgba(0,0,0,0.0);
+		font-size: 15pt;
+	}
+	
+}
+
+
+@media screen and (max-width: 714px) {
+	.sresumo-linha1 > h1, .sresumo-linha1 > .resumo-sobre,.sresumo-linha1 > .resumo-especialidades,
+	.sresumo-linha1 > .resumo-linguas{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.resumo-linguas,.resumo-hobes {
+		margin-top: 45px;
+	}
+	.resumo-hobes {
+		padding: 30px;
+	}
+	
+}
+
+
+@media screen and (min-width: 515px) {
+	#cvv > a {
+		display: none;
+	}
+	.menu-nomes {
+		top: 18%;
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1090px){
+/*
+	.cabecalho-div01 {
+		margin-left: 300px;
+	} */
+}
+
+/* Estilizacao da segunda secao ou do corpo da pagina */
+
+.sresumo-linha1 {
+	padding: 0px;
+}
+.sresumo-linha1 > h1{
+	margin-top: 58px;
+    text-transform: uppercase;
+	color: rgba(189,189,180,1.00);
+	font-size: 10pt;
+	font-weight: bold;
+}
+.sresumo-linha1 > section, .sresumo-linha1 p{
+	padding: 0px 10px 0 0;
+	
+}
+.sresumo-linha1 > section > p {
+	padding: 5px;
+}
+.paragr1 {
+	font-size: 15pt;
+	font-family: "Tahoma";
+	text-align: left;
+	color: #787373;
+}
+.paragr2 {
+	font-size: 12pt;
+	text-align: left;
+	font-family: "Tahoma";
+}
+.ppborder {
+	border-bottom: 1px solid #787373;
+	padding-bottom: 10px;
+	width: 95%;
+}
+.pp1 {
+	height: 80px;
+	padding-top: 6px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+.pp1 > hgroup {
+	margin-left: 15px;
+}
+.esp-titulo {
+	font-size: 13pt;
+	font-weight: bold;
+}
+.esp-item {
+	font-size: 11pt;
+	margin-top: -10px;
+	color: #787373;
+}
+.progress,.progress-bar {
+	height: 8px;
+}
+.progress {
+	margin-bottom: 0px;	
+}
+.progress-bar {
+	margin-bottom: 0px;
+	background: #D86A39;
+	
+}
+.progress > span {
+	font-weight: bold;
+	font-size: 8pt;
+	border-radius: 70px;
+	background: #D86A39;
+	color: white;
+	padding: 3px 10px;
+	position: absolute;
+	margin-top: -6px;
+}
+
+.progress + p{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.edtrabalho {		
+	margin-top: -30px;	
+	padding: 0px;	
+}
+.trabtam {
+	width: 100%;
+	height: 30px;
+	margin: 20px 0 -30px 0; 
+	border-left: 1px solid rgba(234,234,234,1.00);	
+}
+
+.edtrabalho ul {
+    list-style-position:outside;
+    margin-left:-20px;
+    padding-bottom: 0px;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    font-size: 20pt;
+    float: left;
+    color: rgba(216,106,57,1.00);
+}
+.trabtam ~ div {
+	clear: both;
+	position: relative;
+}
+.trabtam-span {
+	font-size: 10pt;
+	color: #000;	
+}
+.trabtam-baixo {
+	height: 60px;
+}
+.trabtam-baixo > div {
+	margin: 10%;
+}
+.trabtam-baixo-ultimo {
+	height: 110px;
+}
+.trabesc {
+	text-align: left;
+	font-size: 12px;	
+	padding: 10px;
+	position: relative;
+	margin: 5px auto 0 -10px;
+	color: rgba(156,156,156,1.00);
+}
+.trabtit {
+	font-size: 15px;
+	margin-bottom: -15px;
+	margin-top: 10px;
+	color: #000;	
+}
+.col-md-3-especial, .hobby-titulo {
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;	
+	font-size: 8pt;
+	padding: 10px;
+	margin-right: auto;
+ 	 margin-left: auto;
+}
+.hobby-titulo a {
+	width: 50px;
+	height: 50px;	
+	float: right;
+	color: black;
+	margin: 10px 0 0 0;
+	padding: 20px 10px;
+	background: #D86A39;
+	border-radius: 100%;
+}
+.hobby-titulo > h2 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+.hobby-titulo img {
+	width: 25px;
+	height: 25px%;
+	margin: -8px 0 0 0px;
+}
+.hobby-titulo img[alt="Video"],
+.hobby-titulo img[alt="Fotos"],
+.hobby-titulo img[alt="Viagens"] {
+	width: 25px;
+	height: 25px%;
+	margin: -8px 0 0 2px;
+}
+.col-md-3-especial ul li {
+	text-align: center;
+	margin-right: 20px;
+	top: 10px;
+	color: white;
+}
+.altura500 {
+	height: 500px;
+}
+
+.red {
+	background: red;
+}
+.blue {
+	background: blue;
+}
+.green {
+	background: green;
+}
+.s-testemunhas {
+	background: url(../img/law-bg02.jpg);
+}

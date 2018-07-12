@@ -1,0 +1,71 @@
+/* CSS Document */
+
+.s-portfolio {
+	background: #D86A39;
+}
+.s-portf-div2 > h1 {
+	margin: 58px 0 0 15px;
+	text-transform: uppercase;
+	color: rgba(189,189,180,1.00);
+	font-size: 10pt;
+	font-weight: bold;
+}
+.s-portf-nav {
+	margin-top: 30px;
+}
+.s-portf-nav > ul > li a {
+	padding: 15px 17px;
+	background: #C75D2E;
+	color: white;
+	border-radius: 40px;
+	text-decoration: none;
+	margin-top: 55px;
+}
+.s-portf-nav > ul > li {
+		margin-bottom: 14px;
+	}
+@media screen and (min-width: 501px) and (max-width: 700px){
+	.s-portf-nav > ul > li {
+		margin-bottom: 34px;
+	}
+}
+@media screen and (max-width: 500px){
+	.s-portf-nav > ul > li {
+	margin: 15px;
+	}
+}
+@media screen and (min-width: 700px){
+	.md-e-lg-com-padding-5 {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.md-e-lg-sem-padding {
+		padding-right: 0;
+		padding-left: 0;
+	} 
+	.margem-lg-md {
+		margin: 3px;
+	}
+}
+figure {
+/*	background: #C75D2E; Cor original*/
+	background: #C75D2E;
+}
+
+
+portfolio-imagens {
+	width: 100%;
+}
+figcaption > h3 {
+	color: white;
+	font-size: 13pt;
+	text-align: center;
+	margin-top: 5px;
+}
+figcaption > p {
+	color: burlywood
+		;
+	font-size: 13pt;
+	text-align: center;
+	margin-top:10px;
+}

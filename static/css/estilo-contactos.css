@@ -1,0 +1,146 @@
+/* CSS Document */
+.aside-menu > span > a >  img {
+	margin: -15px 0 0 -15px;
+}
+.contactos-principal {
+	height: 700px;
+	background:#232323 ;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.contactos-principal > section > h2 {
+	color: white;
+	margin: 50px 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+.contactos-principal > section > ul  {
+	margin: 0px 0px 50px 0;
+}
+.contactos-principal > section > ul > li  {
+	 font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	line-height: 2;
+	list-style-type: square;
+	font-size: 11pt;
+}
+
+.contactos-principal > section >span {
+	color: white;
+	margin: 0px 50px;
+	background: #D86A39;
+	padding: 15px 15px;
+	border-radius: 70px;
+	
+}
+.contactos-principal > section >span:hover {
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+.contactos-principal > section > h4 {
+	margin: 80px 0 0 0;
+	padding: 5px;
+	color: white;
+}
+.modal-body, .modal-dialog,.modal-footer,.modal-header {
+	padding: 2px;
+}
+.modal-dialog {
+	margin-top: 0;
+}
+#video {
+	width: 101%;
+	height: 101%;
+	margin-left: 10px; 
+}
+.modal-title {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0;
+}
+
+@media screen and (max-width: 990px){
+	.modal-body #video {
+		width: 95%;
+		height: 100%;
+		margin-left: 12px; 
+	}
+	.modal-title {
+		font-size: 20px;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 0;
+	}
+}
+
+.audeo-img {
+	background: red;
+	padding: 10px;
+	margin: 10px;
+}
+.audeo-img > audio {
+	width: 100%;
+	margin-top: 5px;
+}
+.audeo-img img {
+	width: 100px;
+	height: 100px;
+}
+@media screen and (min-width: 991px){
+	.col-md-5 {
+		width: 48.5%;
+	}
+	.audeo-img {
+		background: rgba(120,120,120,.8);
+		padding: 10px;
+		margin: 5px 0 10px 13px;
+	}
+}
+@media screen and (max-width: 990px){
+	.audeo-img {
+		background: rgba(0,0,0,.5);
+	/*	background: #D86A39; */
+	}
+}
+
+.contactos-form {
+	float: right;
+	width: 320px;
+	height: 700px;
+	right: 0;	
+	background: #D86A39;
+	padding-left: 10px; 
+	padding-top: 10px; 
+}
+
+@media screen and (max-width: 500px){
+	.contactos-form {
+		width: 300px;
+	}
+}
+.contactos-form > header {
+	height: 110px;
+	background: none;	
+}
+.contactos-form .imagem-contact,.contact-close {
+	border-radius: 100px;
+}
+.contact-close {
+	margin-top: 25px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+}	
+.contact-close:hover {
+	background: #D86A39;
+	border: 2px solid #fff;
+}
+.contactos-form .imagem-contact {
+	margin-top: 5px;
+	width: 80px;
+	height: 80px;
+}
+
+

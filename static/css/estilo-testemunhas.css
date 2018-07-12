@@ -1,0 +1,57 @@
+/* CSS Document */
+
+.s-testemunhas-testemunhas > h1 {
+	margin-top: 58px;
+	margin-bottom: 25px;
+    text-transform: uppercase;
+	color: rgba(189,189,180,1.00);
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.s-testemunho-paragrafos > h2 {
+	color: white;
+}
+.s-testemunho-paragrafos > h4 {
+	color: #B9AEAE;
+	font-weight: bold;
+	padding-bottom: 45px;
+}
+.testimonial-content {
+	background: rgba(0,0,0,.3);
+}
+.testimonial-dark .testimonial-content::before {
+    border-color: rgba(0,0,0,.3) transparent transparent;
+}
+.testimonial-content::before {
+    position: absolute;
+    bottom: -14px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 0;
+    content: '';
+    border-color: rgba(0,0,0,.8) transparent transparent;
+}
+*::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.testimonial {
+	color: #fff;
+	padding: 5px;
+}
+.testimonial-author {
+	margin-bottom: 5px;
+}
+.testimonial-photo > p {
+	margin-bottom: -30px;
+}
+
+@media screen and (min-width: 1000px){
+	.mars {
+		top: -30px;
+	}
+}
