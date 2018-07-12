@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="activities">
         <div class="main">
             <div class="section text-center">
                 <div class="container">

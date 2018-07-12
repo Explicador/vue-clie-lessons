@@ -2,8 +2,8 @@
   <div class="">
       <div id="app-header"><app-header></app-header></div>
       <div id="app-overview"><app-overview></app-overview></div>
-      <div style="height: 10px"></div>
-      <div id="app-profile"><app-profile></app-profile></div>
+      <!--<div style="height: 10px"></div>-->
+      <!--<div id="app-profile"><app-profile></app-profile></div>-->
       <div id="app-activities"><app-activities></app-activities></div>
       <div id="app-team"><app-team></app-team></div>
       <div id="app-contact"><app-contact></app-contact></div>

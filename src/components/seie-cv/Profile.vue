@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="wrapper">
-            <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('https://demos.creative-tim.com/paper-kit-2/assets/img/fabio-mangione.jpg');">
+            <div class="page-header page-header-xs" data-parallax="false" style="background-image: url('https://demos.creative-tim.com/paper-kit-2/assets/img/fabio-mangione.jpg');">
                 <div class="filter"></div>
             </div>
             <div class="section profile-content">
