@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/seie-cv/Index'
+import Home from '@/components/seie-cv/Index'
+import FullPortfolio from '@/components/seie-full-portfolio/Index'
 
 Vue.use(Router)
 
@@ -9,7 +10,12 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: HelloWorld
+      component: Home
+    },
+    {
+      path: '/seie-full-portfolio',
+      name: 'FullPortfolio',
+      component: FullPortfolio
     }
   ],
   mode: 'history'
