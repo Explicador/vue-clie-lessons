@@ -16,7 +16,7 @@
                             <!--<a href="../index.html" class="nav-link"><i class="nc-icon nc-layout-11"></i>Meus Projectos</a>-->
                         <!--</li>-->
                         <li class="nav-item">
-                            <a href="/seie-full-portfolio" @click="onProjects" target="_blank" class="nav-link"><i class="nc-icon nc-book-bookmark"></i>  Mais Sobre Mim</a>
+                            <a href="/seie-full-portfolio" @click="onProjects" class="nav-link"><i class="nc-icon nc-book-bookmark"></i>  Mais Sobre Mim</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" rel="tooltip" title="Siga-me no Twitter" data-placement="bottom" href="https://twitter.com/jose_seie" target="_blank">

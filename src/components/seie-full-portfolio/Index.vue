@@ -38,7 +38,7 @@
                           <li class="imenu descer-subir itensborder"><a href="#s-testemunhas"><span>Testemunhas</span></a></li>
                           <li class="imenu descer-subir itensborder"><a href="#s8"><span>Novidades <span class="indisp">Indisp</span></span></a></li>
                           <li id="contacto" class="imenu descer-subir itensborder"><a id="cont" href="#s-contactos"><span>Contactos</span></a></li>
-                          <li class="imenu descer-subir"><a href="#s8"><span>Documentarios <span class="indisp">Indisp</span></span></a></li>
+                          <li class="imenu descer-subir"><a href="/"><span>Voltar <span class="indisp">Indisp</span></span></a></li>
                       </ul>
                   </section>
                   <section class="text-center hidden-md hidden-lg">
