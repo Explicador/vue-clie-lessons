@@ -2,8 +2,8 @@
   <div class="">
       <!--<div id="app-header"><app-header></app-header></div>-->
       <!--<h1>Portfolio completo</h1>-->
-      <section class="corpo-pagina container col-sm-12 col-md-12 col-lg-12"><!--Inicio do corpo principal da pagina -->
-          <header id="s-inicio" class=" row abecalho-pagina "> <!--Inicio do Cabeçalho -->
+      <section class="corpo-pagina container col-sm-12"><!--Inicio do corpo principal da pagina -->
+          <header id="s-inicio" class="row abecalho-pagina" style="background: url('../../assets/img/compl-portfolio/img/law-bg01.jpg')"> <!--Inicio do Cabeçalho -->
 
               <button class="aside-menu navbar-toggle"> <!-- Inicio Menu Button -->
                   <span class="icon-bar"></span>
@@ -17,9 +17,9 @@
               </button> <!-- Fim Menu Button -->
 
               <nav class="menu col-md-3 col-sm-8 col-xs-12"> <!--Inicio do Menu -->
-                  <img id="imagem" src="../../assets/img/compl-portfolio/img/seie.jpg" class="img-responsive hidden-sm hidden-xs">
-                  <section class="col-md-5">
-                      <img id="imagem2" src="../../assets/img/compl-portfolio/img/seie-s1.jpg" class="hidden-md hidden-lg">
+                  <img id="imagem" src="../../assets/img/compl-portfolio/img/Seie.jpg" class="img-responsive hidden-sm hidden-xs">
+                  <section class="col-md-5 hidden-md hidden-lg">
+                      <img id="imagem2" src="../../assets/img/compl-portfolio/img/seie-s1.jpg">
                   </section>
                   <section class="section-space col-md-5">
                       <button class="aside-menu navbar-toggle"> <!-- Inicio do Toggle no Small-Menu -->
@@ -74,8 +74,8 @@
 
           <section id="s-resumo" class="row s-resumo"> <!--Inicio da section 02 Resumo -->
 
-              <section class="div-oculto col-md-3 hidden-ms hidden-xs" style="color: rgba(0,0,0,.0);">Primeira Section Por Ocultar</section>
-              <section class="col-md-9 sresumo-linha1"> <!--Inicio  da primeira linhas com 3 divs -->
+              <section class="div-oculto col-md-3 hidden-ms hidden-xs" style="color: rgba(0,0,0,.0);">Espacamento 01</section>
+              <section class="col-md-9 sresumo-linha1" style="float: right"> <!--Inicio  da primeira linhas com 3 divs -->
                   <h1>Resumo</h1>
                   <section class="resumo-sobre col-md-4"><!--Inicio de Sobre -->
 
@@ -93,7 +93,7 @@
                       <p class="paragr2">
                           Sou muito fluente no que faço, ou seja, gosto de aprender rapidamente para atingir pelo menos a fluencia
                       </p>
-                      <p style="color: white;">Paragrafo de quebra de Linhas ou espacamento apenas </p>
+                      <!--<p style="color: white;">Paragrafo de quebra de Linhas ou espacamento apenas </p>-->
                   </section> <!--Fim de Sobre -->
                   <section class="resumo-especialidades col-md-4"> <!--Inicio de Especialidades -->
 
@@ -173,7 +173,7 @@
               </section> <!--Fim  da primeira linhas com 3 divs -->
 
               <section class="col-md-12 row"> <!-- Inicio da Segunda Linha com 3 Divs -->
-                  <!--<section class="div-oculto col-md-3 hidden-sm hidden-xs" style="color: rgba(0,0,0,.0);">Segunda Section Por Ocultar</section>-->
+                  <section class="div-oculto col-md-3 hidden-sm hidden-xs" style="color: rgba(0,0,0,.0);">Espacamento 02</section>
                   <section class="col-md-9 row"> <!--Inicio  da Segunda Interno linhas com 3 divs -->
                       <section class="resumo-habilidades col-md-4"> <!--Inicio de Habilidades -->
 
@@ -630,7 +630,7 @@
 
                               </section>
                               <audio class="musica" controls = "controls">
-                                  <source src="http://joseseie-cv.pancakeapps.com/cdn/media/toni-braxton.mp3" type="audio/mpeg"/>
+                                  <!--<source src="http://joseseie-cv.pancakeapps.com/cdn/media/toni-braxton.mp3" type="audio/mpeg"/>-->
                                   <!--   <source src="media/Yesterday(Remix) feat. Trey Songz.mp3" type="audio/mpeg"/> -->
 
                                   <!--"Aqui podia colocar outras opções de audeos em outros formatos
@@ -641,8 +641,7 @@
 
                           <section class="audeo-img col-xs-12 col-sm-5 col-md-5"> <!--Audio 01 e sua imagem INICIO-->
                               <section>
-                                  <img
-                                          src="../../assets/img/compl-portfolio/cdn/img-musicas/c150.jpg" alt="Favorite Cantic">
+                                  <img src="../../assets/img/compl-portfolio/cdn/img-musicas/c150.jpg" alt="Favorite Cantic">
                               </section>
                               <audio class="musica" controls = "controls">
                                   <!--<source src="http://joseseie-cv.pancakeapps.com/../cdn/media/snnw150.mp3" type="audio/mpeg"/> -->
@@ -659,7 +658,6 @@
                               </section>
                               <audio class="musica" controls = "controls">
                                   <!--    <source src="media/Biggest Fan[(By eleven™)].mp3" type="audio/mpeg"/>-->
-
                                   <!--"Aqui podia colocar outras opções de audeos em outros formatos
                                    para garantir a compatipilidade com a maior parte dos navegadores">-->
                                   Desculpe, não foi possivel carregar o arquivo audeo.
@@ -714,7 +712,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped="">
     /* Indice dos estilos: */
     /* 1- Estilos Globais */
     /* 2- Estilos de portfolio */
@@ -727,6 +725,7 @@ export default {
         background: #D86A39;
         color: white;
         font-family: 'Roboto Condensed', sans-serif;
+        background: url(../../assets/img/compl-portfolio/img/law-bg01.jpg)!important;
     }
     /* Estilizacao do Menu*/
     .col-md-3 {
@@ -861,7 +860,7 @@ export default {
     }
     .li-cv-resumo > li:first-child a{
         font-size: 15px;
-        padding-right: 25px;
+        /*padding-right: 25px;*/
         border-radius: 50px;
         background: #D86A39;
         color: white;
