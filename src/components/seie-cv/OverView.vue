@@ -1,5 +1,5 @@
 <template>
-    <div class="page-header" data-parallax="true" style="background-image: url('https://demos.creative-tim.com/paper-kit-2/assets/img/daniel-olahh.jpg');">
+    <div class="page-header" data-parallax="true" style="margin:0;background-image: url('https://demos.creative-tim.com/paper-kit-2/assets/img/daniel-olahh.jpg');">
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
@@ -25,4 +25,17 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+    .avatar {
+        margin-left: 40%
+    }
+    @media screen and (max-width: 500px){
+        .avatar {
+            margin-left: 5px;
+        }
+        .avatar img {
+            width: 100px!important;
+            margin-left: 35%;
+        }
+    }
+</style>

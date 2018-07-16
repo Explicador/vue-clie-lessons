@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
+    <div style="background: red">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent navbar-fixed-top" color-on-scroll="300">
             <div class="container">
                 <div class="navbar-translate">
                     <a class="navbar-brand" href="#"><img src="https://scontent.fmpm2-1.fna.fbcdn.net/v/t1.0-1/p160x160/24775126_933637970118308_5964366838633375797_n.jpg?_nc_cat=0&oh=b51ab8c3580c8096b4f74cd2d9c39c39&oe=5BEC1F87" style="height: 25px;width: 25px;border-radius: 100px" alt=""> Jose Seie</a>

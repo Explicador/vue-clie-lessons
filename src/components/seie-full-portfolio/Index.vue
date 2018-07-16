@@ -721,11 +721,13 @@ export default {
 
     /*1 - Estilos Globais*/
     /* Estilizacao dos elementos da tela principal*/
+    #s-inicio {
+        background: url(../../assets/img/compl-portfolio/img/law-bg01.jpg)!important;
+    }
     header {
         background: #D86A39;
         color: white;
         font-family: 'Roboto Condensed', sans-serif;
-        background: url(../../assets/img/compl-portfolio/img/law-bg01.jpg)!important;
     }
     /* Estilizacao do Menu*/
     .col-md-3 {
