@@ -1,16 +1,12 @@
-//"js/scripts.js""js/scripts.js"// JavaScript Document
-				
-$('#s-inicio').css("background","url(ajax-loader1.gif) no-repeat");
-				
- window.onload = function(){
 
-	$('#s-inicio').css("background","url(img/law-bg01.jpg) no-repeat");
-
-	 function goTo(element, speed){
-		var href = element.attr('href');
-		var top = $(href).offset().top;
-		$('html, body').animate({scrollTop: top},speed);
-
+// JavaScript Document
+$('#s-inicio').css('background', 'url(ajax-loader1.gif) no-repeat')
+window.onload = function () {
+$('#s-inicio').css('background', 'url(img/law-bg01.jpg) no-repeat')
+function goTo (element, speed) {
+    var href = element.attr('href')
+    var top = $(href).offset().top
+		$('html, body').animate({scrollTop: top}, speed)
 	}
 
 	$(function(){
@@ -54,9 +50,7 @@ $('#s-inicio').css("background","url(ajax-loader1.gif) no-repeat");
 	$("button[class*='aside']").click(function(){
 		$(".contactos-form").show(800);
 	});
-	$(".contactos-principal > section >span").click(function(){
-		$(".contactos-form").toggle(1000);
+	$('.contactos-principal > section >span').click(function(){
+		$('.contactos-form').toggle(1000);
 	});
-			
 }
-	

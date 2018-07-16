@@ -1,6 +1,5 @@
 /* CSS Document */
 /* Estilizacao dos elementos da tela principal*/
-
 header {
 	background: #D86A39;
 	color: white;
@@ -363,14 +362,14 @@ h1, h3 {
 }
 .hobby-titulo img {
 	width: 25px;
-	height: 25px%;
-	margin: -8px 0 0 0px;
+	height: 25px;
+	margin: -8px 0 0 0;
 }
 .hobby-titulo img[alt="Video"],
 .hobby-titulo img[alt="Fotos"],
 .hobby-titulo img[alt="Viagens"] {
 	width: 25px;
-	height: 25px%;
+	height: 25px;
 	margin: -8px 0 0 2px;
 }
 .col-md-3-especial ul li {
