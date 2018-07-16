@@ -12,14 +12,14 @@
               </button> <!-- Fim Menu Button -->
 
               <button class="aside-contact navbar-toggle"> <!-- Inicio Menu Button -->
-                  <img src="img/png/001.png" alt="Not">
+                  <img src="../../assets/img/compl-portfolio/img/png/001.png" alt="Not">
                   <a href="#contactos-form"></a>
               </button> <!-- Fim Menu Button -->
 
               <nav class="menu col-md-3 col-sm-8 col-xs-12"> <!--Inicio do Menu -->
-                  <img id="imagem" src="img/seie.jpg" class="img-responsive hidden-sm hidden-xs">
+                  <img id="imagem" src="../../assets/img/compl-portfolio/img/seie.jpg" class="img-responsive hidden-sm hidden-xs">
                   <section class="col-md-5">
-                      <img id="imagem2" src="img/seie-s1.jpg" class="hidden-md hidden-lg">
+                      <img id="imagem2" src="../../assets/img/compl-portfolio/img/seie-s1.jpg" class="hidden-md hidden-lg">
                   </section>
                   <section class="section-space col-md-5">
                       <button class="aside-menu navbar-toggle"> <!-- Inicio do Toggle no Small-Menu -->
@@ -44,15 +44,15 @@
                   <section class="text-center hidden-md hidden-lg">
                       <h4>Veja as minhas redes sociais</h4>
                       <ul class="list-inline">
-                          <li><a href="https://www.facebook.com/jose.seie"><span><img src="img/icons/022-facebook.png" width="30px" alt=""/></span></a></li>
-                          <li><a href="#"><span><img src="img/icons/023-twitter.png" width="30px" alt=""/></span></a></li>
-                          <li><a href="#"><span><img src="img/icons/020-google-plus.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="https://www.facebook.com/jose.seie"><span><img src="../../assets/img/compl-portfolio/img/icons/022-facebook.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="#"><span><img src="../../assets/img/compl-portfolio/img/icons/023-twitter.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="#"><span><img src="../../assets/img/compl-portfolio/img/icons/020-google-plus.png" width="30px" alt=""/></span></a></li>
                       </ul>
                   </section>
               </nav><!--Fim do Menu -->
 
               <section class="cabecalho-div01 col-md-7 col-sm-6 col-md-offset-3 md-e-lg-sem-padding col-sm-offset-5"><!--Inicio do DIV direito do Menu -->
-                  <p><img src="img/png/001.png" alt="Testo"/> Deseja escrever alguma pergunta para mim? <a href="#">joseeugenioseie@hotmail.com</a></p>
+                  <p><img src="../../assets/img/compl-portfolio/img/png/001.png" alt="Testo"/> Deseja escrever alguma pergunta para mim? <a href="#">joseeugenioseie@hotmail.com</a></p>
                   <section class="menu-nomes md-e-lg-sem-padding col-md-12">
                       <hgroup class="col-md-12">
                           <h1 class="wow bounceInDown" data-wow-duration="5s">Ola! eu sou <strong>José Seie</strong></h1>
@@ -79,7 +79,7 @@
                   <h1>Resumo</h1>
                   <section class="resumo-sobre col-md-4"><!--Inicio de Sobre -->
 
-                      <img src="img/icons/009-user.png" class="wow bounceInDown" alt="icon Logo" />
+                      <img src="../../assets/img/compl-portfolio/img/icons/009-user.png" class="wow bounceInDown" alt="icon Logo" />
 
                       <h1>Sobre <span>Me!</span></h1>
 
@@ -97,12 +97,12 @@
                   </section> <!--Fim de Sobre -->
                   <section class="resumo-especialidades col-md-4"> <!--Inicio de Especialidades -->
 
-                      <img src="img/icons/015-psi.png" class="wow bounceInDown" alt="icon Logo" />
+                      <img src="../../assets/img/compl-portfolio/img/icons/015-psi.png" class="wow bounceInDown" alt="icon Logo" />
 
                       <h1>minhas <span>Especialidades</span></h1>
 
                       <section class="pp1 ppborder flex-container">
-                          <img src="img/Iconv45.png"  alt="Img Pequena"/>
+                          <img src="../../assets/img/compl-portfolio/img/Iconv45.png"  alt="Img Pequena"/>
                           <hgroup>
                               <p class="esp-titulo">Criação de Paginas WEB</p>
                               <p class="esp-item">Crio paginas modernas</p>
@@ -110,7 +110,7 @@
                       </section>
 
                       <section class="pp1 ppborder flex-container">
-                          <img src="img/Iconv45.png"  alt="Img Pequena"/>
+                          <img src="../../assets/img/compl-portfolio/img/Iconv45.png"  alt="Img Pequena"/>
                           <hgroup>
                               <p class="esp-titulo">Des. Front-End</p>
                               <p class="esp-item">Crio paginas modernas</p>
@@ -118,7 +118,7 @@
                       </section>
 
                       <section class="pp1 ppborder flex-container">
-                          <img src="img/Iconv45.png"  alt="Img Pequena"/>
+                          <img src="../../assets/img/compl-portfolio/img/Iconv45.png"  alt="Img Pequena"/>
                           <hgroup>
                               <p class="esp-titulo">Design. Responsivo</p>
                               <p class="esp-item">Aprendendo ainda...</p>
@@ -128,7 +128,7 @@
                   </section> <!--Fim de Especialidades -->
                   <section class="resumo-linguas col-md-4"> <!--Inicio de Linguas -->
 
-                      <img src="img/icons/006-link.png" class="wow bounceInDown" alt="icon Logo" />
+                      <img src="../../assets/img/compl-portfolio/img/icons/006-link.png" class="wow bounceInDown" alt="icon Logo" />
 
                       <h1>Dominio de <strong>Linguas</strong></h1>
 
@@ -177,7 +177,7 @@
                   <section class="col-md-9 row"> <!--Inicio  da Segunda Interno linhas com 3 divs -->
                       <section class="resumo-habilidades col-md-4"> <!--Inicio de Habilidades -->
 
-                          <img src="img/icons/008-layers.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="0s" alt="icon Logo" />
+                          <img src="../../assets/img/compl-portfolio/img/icons/008-layers.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="0s" alt="icon Logo" />
 
                           <h1>Dominio e <span>Habilidades</span></h1>
 
@@ -222,7 +222,7 @@
 
                       <section class="resumo-educacao col-md-4"> <!-- Inicio de Educação -->
 
-                          <img src="img/icons/003-light-bulb.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="0.5s" alt="icon Logo"/>
+                          <img src="../../assets/img/compl-portfolio/img/icons/003-light-bulb.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="0.5s" alt="icon Logo"/>
 
                           <h1>Educação e <span>Trabalho</span></h1>
 
@@ -278,7 +278,7 @@
 
                       <section class="resumo-hobes col-md-4"> <!-- Inicio de Hobes -->
 
-                          <img src="img/icons/004-film.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="1s" alt="icon Logo"/>
+                          <img src="../../assets/img/compl-portfolio/img/icons/004-film.png" class="wow bounceInDown" data-wow-duration="3s" data-wow-delay="1s" alt="icon Logo"/>
 
                           <h1>Hobbies e <strong>Interresses</strong></h1>
 
@@ -286,14 +286,14 @@
                               <li class="col-md-3 col-sm-2 col-xs-3">
                                   <span class="hobby-titulo">
                                     <!-- <h2>Musicas</h2> -->
-                                      <a data-toggle="modal" href="#m-musicas"><img src="img/png/002-music.png" alt="Musicas"></a>
+                                      <a data-toggle="modal" href="#m-musicas"><img src="../../assets/img/compl-portfolio/img/png/002-music.png" alt="Musicas"></a>
                                   </span>
                               </li>
                               <li class="col-md-3 col-sm-2 col-xs-3">
                                   <span class="hobby-titulo">
                                       <!-- <h2>Video</h2> -->
                                       <a data-toggle="modal" href="#m-video">
-                                          <img src="img/png/004-video.png" alt="Video">
+                                          <img src="../../assets/img/compl-portfolio/img/png/004-video.png" alt="Video">
                                       </a>
                                   </span>
                               </li>
@@ -301,14 +301,14 @@
                               <li class="col-md-3 col-sm-2 col-xs-3">
                                   <span class="hobby-titulo">
                                       <!--<h2>Fotos</h2> -->
-                                      <a data-toggle="modal" href="#m-foto-viagem"><img src="img/png/003-fotos.png" alt="Fotos"></a>
+                                      <a data-toggle="modal" href="#m-foto-viagem"><img src="../../assets/img/compl-portfolio/img/png/003-fotos.png" alt="Fotos"></a>
                                   </span>
                               </li>
 
                               <li class="col-md-3 col-sm-2 col-xs-3">
                                  <span class="hobby-titulo">
                                      <!-- <h2>Viagens</h2> -->
-                                     <a data-toggle="modal" href="#m-foto-viagem"><img src="img/png/004-viagens.png" alt="Viagens"></a>
+                                     <a data-toggle="modal" href="#m-foto-viagem"><img src="../../assets/img/compl-portfolio/img/png/004-viagens.png" alt="Viagens"></a>
                                  </span>
                               </li>
                           </ul>
@@ -342,7 +342,7 @@
                           <section class="col-md-12 col-sm-12 row md-e-lg-sem-padding">
                               <section  class="col-md-4 col-sm-4 md-e-lg-sem-pading">
                                   <figure>
-                                      <img src="img/project-vertical01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
+                                      <img src="../../assets/img/compl-portfolio/img/project-vertical01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
                                       <figcaption>
                                           <h3>Onde Tudo começou</h3>
                                           <p>A fonte das minhas ppesquisas</p>
@@ -352,7 +352,7 @@
 
                               <section class="col-md-8 col-sm-8 md-e-lg-sem-padding">
                                   <figure>
-                                      <img src="img/project-square01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
+                                      <img src="../../assets/img/compl-portfolio/img/project-square01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
                                       <figcaption>
                                           <h3>Minhas realizaçoes Pessoais</h3>
                                           <p>Muitas solicitaçoes e recomendaçoes</p>
@@ -364,7 +364,7 @@
                           <section class="col-md-12 col-sm-12 row md-e-lg-sem-padding">
                               <section class="col-md-8 col-sm-8">
                                   <figure >
-                                      <img src="img/project-horizontal01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
+                                      <img src="../../assets/img/compl-portfolio/img/project-horizontal01.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
                                       <figcaption>
                                           <h3>Coleçoes inesqueciveis</h3>
                                           <p>Contratos e varias bijoterias</p>
@@ -374,7 +374,7 @@
 
                               <section class="col-md-4 col-sm-4 md-e-lg-sem-padding">
                                   <figure>
-                                      <img src="img/project-square03.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
+                                      <img src="../../assets/img/compl-portfolio/img/project-square03.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
                                       <figcaption>
                                           <h3>Meis e mais contratos</h3>
                                           <p>mais, e ainda haverão mais...</p>
@@ -387,7 +387,7 @@
                       <section class="col-md-4 col-sm-4 md-e-lg-sem-padding">
                           <section  class="col-md-12 col-sm-12">
                               <figure>
-                                  <img src="img/project-vertical02.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
+                                  <img src="../../assets/img/compl-portfolio/img/project-vertical02.jpg" class="img-responsive" alt="Minha Primeira Imagem"/>
                                   <figcaption>
                                       <h3>Cheguei onde nunca pensei que fosse chegar</h3>
                                       <p>O crescimento, o meu lema</p>
@@ -397,7 +397,7 @@
 
                           <section class="col-md-12 col-sm-12">
                               <figure>
-                                  <img src="img/project-square02.jpg" class="img-responsive md-e-lg-sem-padding" alt="Minha Primeira Imagem"/>
+                                  <img src="../../assets/img/compl-portfolio/img/project-square02.jpg" class="img-responsive md-e-lg-sem-padding" alt="Minha Primeira Imagem"/>
                                   <figcaption>
                                       <h3>Cartas e recomendaçoes..</h3>
                                       <p>Meis e mais recomendaçoes</p>
@@ -432,7 +432,7 @@
                       <div class="testimonial-author md-e-lg-sem-padding">
                           <div class="testimonial-photo animated zoomIn">
                               <p style="color: rgba(0,0,0,.0); font-size: 4px">espacador...</p>
-                              <img class="img-circle wow infinite zoomIn" data-wow-duration="20s" data-wow-delay="0s" src="img/foto-hele.jpg" alt="Herquiloide Hele" />
+                              <img class="img-circle wow infinite zoomIn" data-wow-duration="20s" data-wow-delay="0s" src="../../assets/img/compl-portfolio/img/foto-hele.jpg" alt="Herquiloide Hele" />
                               <div class="testimonial-author-txt">
                                   <a href="http://herquiloidehele.pancakeapps.com/" target="_blank"><span class="name">Herquiloide Hele</span></a><br/>
                                   <span class="text-secondary">Siko Inc.</span>
@@ -449,7 +449,7 @@
                       <div class="testimonial-author md-e-lg-sem-padding">
                           <div class="testimonial-photo animated zoomIn">
                               <p style="color: rgba(0,0,0,.0); font-size: 4px">espacador...</p>
-                              <img class="img-circle wow infinite zoomIn" data-wow-duration="15s" data-wow-delay="1s" src="img/foto-sumbu.png" alt="" />
+                              <img class="img-circle wow infinite zoomIn" data-wow-duration="15s" data-wow-delay="1s" src="../../assets/img/compl-portfolio/img/foto-sumbu.png" alt="" />
                               <div class="testimonial-author-txt">
                                   <a href="http://claudiosumburane.pancakeapps.com/" target="_blank"><span class="name">Claudio Raul Sumburane</span></a><br/>
                                   <span class="caption text-secondary">Fomices Inc.</span>
@@ -467,7 +467,7 @@
                       <div class="testimonial-author">
                           <div class="testimonial-photo animated zoomIn">
                               <p style="color: rgba(0,0,0,.0); font-size: 4px">espacador...</p>
-                              <img class="img-circle wow infinite zoom" data-wow-duration="10s" data-wow-delay="3s" src="img/testimonial-avatar01.jpg" alt="" />
+                              <img class="img-circle wow infinite zoom" data-wow-duration="10s" data-wow-delay="3s" src="../../assets/img/compl-portfolio/img/testimonial-avatar01.jpg" alt="" />
                               <div class="testimonial-author-txt">
                                   <a href="#"><span class="name">Mark Wagner</span></a>
                                   <span class="caption text-secondary">Google Inc.</span>
@@ -483,7 +483,7 @@
                       <div class="testimonial-author md-e-lg-sem-padding">
                           <div class="testimonial-photo animated zoomIn">
                               <p style="color: rgba(0,0,0,.0); font-size: 4px">espacador...</p>
-                              <img class="img-circle wow infinite zoomIn" data-wow-duration="10s" data-wow-delay="1s" src="img/testimonial-avatar01.jpg" alt="" />
+                              <img class="img-circle wow infinite zoomIn" data-wow-duration="10s" data-wow-delay="1s" src="../../assets/img/compl-portfolio/img/testimonial-avatar01.jpg" alt="" />
                               <div class="testimonial-author-txt">
                                   <a href="#"><span class="name">Ercilio Manhiça</span></a><br/>
                                   <span class="caption text-secondary">Siko Inc.</span>
@@ -514,9 +514,9 @@
                   <section class="text-center">
                       <h4>Veja as minhas redes sociais</h4>
                       <ul class="list-inline">
-                          <li><a href="#"><span><img src="img/icons/022-facebook.png" width="30px" alt=""/></span></a></li>
-                          <li><a href="#"><span><img src="img/icons/023-twitter.png" width="30px" alt=""/></span></a></li>
-                          <li><a href="#"><span><img src="img/icons/020-google-plus.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="#"><span><img src="../../assets/img/compl-portfolio/img/icons/022-facebook.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="#"><span><img src="../../assets/img/compl-portfolio/img/icons/023-twitter.png" width="30px" alt=""/></span></a></li>
+                          <li><a href="#"><span><img src="../../assets/img/compl-portfolio/img/icons/020-google-plus.png" width="30px" alt=""/></span></a></li>
                       </ul>
                   </section>
 
@@ -526,10 +526,10 @@
 
                   <header class="col-md-12"> <!-- Inicio Cabecalho do formulario -->
                       <section class="col-md-1 col-xs-1">
-                          <img class="imagem-contact" src="img/seie-s1.jpg">
+                          <img class="imagem-contact" src="../../assets/img/compl-portfolio/img/seie-s1.jpg">
                       </section>
                       <button class="contact-close col-md-2 col-md-offset-7 col-xs-2 col-xs-offset-7" onclick=""> <!-- Inicio Menu Button -->
-                          <img src="img/png/001-stop.png" class="img-responsive" alt="Not">
+                          <img src="../../assets/img/compl-portfolio/img/png/001-stop.png" class="img-responsive" alt="Not">
                       </button> <!-- Fim Menu Button -->
                   </header><!-- Fim Cabecalho do formulario -->
 
@@ -626,7 +626,7 @@
                       <div class="modal-body col-xs-12 col-sm-12 row"> <!-- Inicio do Modal Body (Corpo do modal). -->
                           <section class="audeo-img col-xs-12 col-sm-5 col-md-5"> <!--Audio 04 e sua imagem INICIO-->
                               <section>
-                                  <img src="cdn/img-musicas/yesterday.jpg" alt="Favorite Cantic">
+                                  <img src="../../assets/img/compl-portfolio/cdn/img-musicas/yesterday.jpg" alt="Favorite Cantic">
 
                               </section>
                               <audio class="musica" controls = "controls">
@@ -642,7 +642,7 @@
                           <section class="audeo-img col-xs-12 col-sm-5 col-md-5"> <!--Audio 01 e sua imagem INICIO-->
                               <section>
                                   <img
-                                          src="cdn/img-musicas/c150.jpg" alt="Favorite Cantic">
+                                          src="../../assets/img/compl-portfolio/cdn/img-musicas/c150.jpg" alt="Favorite Cantic">
                               </section>
                               <audio class="musica" controls = "controls">
                                   <!--<source src="http://joseseie-cv.pancakeapps.com/../cdn/media/snnw150.mp3" type="audio/mpeg"/> -->
@@ -655,7 +655,7 @@
 
                           <section class="audeo-img col-xs-12 col-sm-5 col-md-5"> <!--Audio 03 e sua imagem INICIO-->
                               <section>
-                                  <img src="cdn/img-musicas/chris-brown.jpg" alt="Favorite Cantic">
+                                  <img src="../../assets/img/compl-portfolio/cdn/img-musicas/chris-brown.jpg" alt="Favorite Cantic">
                               </section>
                               <audio class="musica" controls = "controls">
                                   <!--    <source src="media/Biggest Fan[(By eleven™)].mp3" type="audio/mpeg"/>-->
@@ -668,7 +668,7 @@
 
                           <section class="audeo-img col-xs-12 col-sm-5 col-md-5"> <!--Audio 02 e sua imagem INICIO-->
                               <section>
-                                  <img src="cdn/img-musicas/ne-yo.jpg" alt="Favorite Cantic">
+                                  <img src="../../assets/img/compl-portfolio/cdn/img-musicas/ne-yo.jpg" alt="Favorite Cantic">
                               </section>
                               <audio class="musica" controls = "controls">
                                   <!--   <source src="media/Should Be You (feat. Fabolous & D[(By eleven™)].m4a" type="audio/mpeg"/> -->
@@ -1101,7 +1101,7 @@ export default {
         background: green;
     }
     .s-testemunhas {
-        background: url(../img/law-bg02.jpg);
+        background: url(../../assets/img/compl-portfolio/img/law-bg02.jpg);
     }
     /*Fim dos 1- Estilos Globais*/
 
