@@ -714,4 +714,664 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+    /* Indice dos estilos: */
+    /* 1- Estilos Globais */
+    /* 2- Estilos de portfolio */
+    /* 3- Estilos de testemnundas */
+    /* 4- Estilos de contactos */
+
+    /*1 - Estilos Globais*/
+    /* Estilizacao dos elementos da tela principal*/
+    header {
+        background: #D86A39;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    /* Estilizacao do Menu*/
+    .col-md-3 {
+        padding: 0;
+    }
+    .indisp {
+        color: white;
+        background: #D86A39;
+        padding: 3px 5px;
+        border-radius: 7px;
+        font-weight: bold;
+        font-size: 7pt;
+    }
+    .menu  {
+        background: rgba(35,35,35,1.00);
+        border: solid 0.3px rgba(136,133,128,1.00);
+        z-index: 1;
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 15px;
+        float: left;
+        position: fixed;
+    }
+
+    .aside-contact, .aside-menu  {
+        background: #D86A39;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        right: 10px;
+        top: 10px;
+        position: fixed;
+        float: left;
+        z-index: 1;
+        border-radius: 100px;
+    }
+    .aside-contact {
+        top: 85%;
+        background-color: #D86A39;
+        display: inline-block;
+    }
+    .aside-contact:hover {
+        background: #fff;
+        border: 2px solid #000;
+    }
+
+    .aside-menu > span  {
+        background: white;
+        width: 10px;
+        height: 2px;
+        margin: 5px;
+
+    }
+
+    @media screen and (max-width: 991px){
+        .menu  {
+            background: rgba(35,35,35,1.00);
+            border: solid 0.3px rgba(136,133,128,1.00);
+            z-index: 1;
+            width: 250px;
+            margin-top: 0px;
+            right: 10px;
+            position: fixed;
+        }
+        .menu > section > img {
+            width: 100px;
+            margin: 0;
+            border-radius: 100px;
+        }
+        .section-space {
+            height: 50px;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+    }
+    #section-list {
+        width: 90%;
+    }
+    .imenu > a, .imenu {
+        text-decoration: none;
+        text-align: right;
+        color: white;
+        list-style: none;
+        padding: 10px 0;
+
+    }
+    .itensborder {
+        border-bottom: 1px solid rgba(136,133,128,1.00);
+    }
+
+    .imenu > a:hover, .imenu:hover {
+        color: rgba(216,106,57,1.00);
+    }
+    .selecionado:hover {
+        color: white;
+    }
+    .selecionado {
+        background: rgba(216,106,57,1.00);
+        border-radius: 20px;
+        padding: 2% 8%;
+    }
+    /* Estilizacao da section direita do Menu*/
+    .cabecalho-div01  {
+        height: 700px;
+    }
+    .cabecalho-div01 > p {
+        padding: 25px;
+    }
+    .cabecalho-div01 > p > a {
+        color: #D86A39;
+        text-decoration: none;
+    }
+    .menu-nomes {
+        top: 28%;
+        font-size: 1.8em;
+    }
+    h3 {
+        color: #85B448;
+        margin: -5px 0;
+    }
+    h1, h3 {
+        font-size: 2em;
+    }
+    .li-cv-resumo {
+        height: 150px;
+        padding-top: 10%;
+        text-align: left;
+    }
+    .li-cv-resumo > li a {
+        text-decoration: none;
+    }
+    .li-cv-resumo > li:first-child a{
+        font-size: 15px;
+        padding-right: 25px;
+        border-radius: 50px;
+        background: #D86A39;
+        color: white;
+        padding: 20px 35px;
+    }
+
+    .li-cv-resumo > li:last-child a{
+        font-size: 15px;
+        padding: 5px;
+        color: white;
+    }
+    @media screen and (max-width: 514px) {
+        .menu-nomes {
+            top: 10%;
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1em;
+            padding: 15px 0;
+        }
+        #cvv > a {
+            color: rgba(0,0,0,0.0);
+            font-size: 15pt;
+        }
+
+    }
+    @media screen and (max-width: 714px) {
+        .sresumo-linha1 > h1, .sresumo-linha1 > .resumo-sobre,.sresumo-linha1 > .resumo-especialidades,
+        .sresumo-linha1 > .resumo-linguas{
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .resumo-linguas,.resumo-hobes {
+            margin-top: 45px;
+        }
+        .resumo-hobes {
+            padding: 30px;
+        }
+
+    }
+    @media screen and (min-width: 515px) {
+        #cvv > a {
+            display: none;
+        }
+        .menu-nomes {
+            top: 18%;
+            font-size: 1.8em;
+        }
+    }
+    /* Estilizacao da segunda secao ou do corpo da pagina */
+
+    .sresumo-linha1 {
+        padding: 0px;
+    }
+    .sresumo-linha1 > h1{
+        margin-top: 58px;
+        text-transform: uppercase;
+        color: rgba(189,189,180,1.00);
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .sresumo-linha1 > section, .sresumo-linha1 p{
+        padding: 0px 10px 0 0;
+
+    }
+    .sresumo-linha1 > section > p {
+        padding: 5px;
+    }
+    .paragr1 {
+        font-size: 15pt;
+        font-family: "Tahoma";
+        text-align: left;
+        color: #787373;
+    }
+    .paragr2 {
+        font-size: 12pt;
+        text-align: left;
+        font-family: "Tahoma";
+    }
+    .ppborder {
+        border-bottom: 1px solid #787373;
+        padding-bottom: 10px;
+        width: 95%;
+    }
+    .pp1 {
+        height: 80px;
+        padding-top: 6px;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .pp1 > hgroup {
+        margin-left: 15px;
+    }
+    .esp-titulo {
+        font-size: 13pt;
+        font-weight: bold;
+    }
+    .esp-item {
+        font-size: 11pt;
+        margin-top: -10px;
+        color: #787373;
+    }
+    .progress,.progress-bar {
+        height: 8px;
+    }
+    .progress {
+        margin-bottom: 0px;
+    }
+    .progress-bar {
+        margin-bottom: 0px;
+        background: #D86A39;
+
+    }
+    .progress > span {
+        font-weight: bold;
+        font-size: 8pt;
+        border-radius: 70px;
+        background: #D86A39;
+        color: white;
+        padding: 3px 10px;
+        position: absolute;
+        margin-top: -6px;
+    }
+
+    .progress + p{
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    .edtrabalho {
+        margin-top: -30px;
+        padding: 0px;
+    }
+    .trabtam {
+        width: 100%;
+        height: 30px;
+        margin: 20px 0 -30px 0;
+        border-left: 1px solid rgba(234,234,234,1.00);
+    }
+
+    .edtrabalho ul {
+        list-style-position:outside;
+        margin-left:-20px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 20pt;
+        float: left;
+        color: rgba(216,106,57,1.00);
+    }
+    .trabtam ~ div {
+        clear: both;
+        position: relative;
+    }
+    .trabtam-span {
+        font-size: 10pt;
+        color: #000;
+    }
+    .trabtam-baixo {
+        height: 60px;
+    }
+    .trabtam-baixo > div {
+        margin: 10%;
+    }
+    .trabtam-baixo-ultimo {
+        height: 110px;
+    }
+    .trabesc {
+        text-align: left;
+        font-size: 12px;
+        padding: 10px;
+        position: relative;
+        margin: 5px auto 0 -10px;
+        color: rgba(156,156,156,1.00);
+    }
+    .trabtit {
+        font-size: 15px;
+        margin-bottom: -15px;
+        margin-top: 10px;
+        color: #000;
+    }
+    .col-md-3-especial, .hobby-titulo {
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 8pt;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hobby-titulo a {
+        width: 50px;
+        height: 50px;
+        float: right;
+        color: black;
+        margin: 10px 0 0 0;
+        padding: 20px 10px;
+        background: #D86A39;
+        border-radius: 100%;
+    }
+    .hobby-titulo > h2 {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+    .hobby-titulo img {
+        width: 25px;
+        height: 25px;
+        margin: -8px 0 0 0;
+    }
+    .hobby-titulo img[alt="Video"],
+    .hobby-titulo img[alt="Fotos"],
+    .hobby-titulo img[alt="Viagens"] {
+        width: 25px;
+        height: 25px;
+        margin: -8px 0 0 2px;
+    }
+    .col-md-3-especial ul li {
+        text-align: center;
+        margin-right: 20px;
+        top: 10px;
+        color: white;
+    }
+    .altura500 {
+        height: 500px;
+    }
+
+    .red {
+        background: red;
+    }
+    .blue {
+        background: blue;
+    }
+    .green {
+        background: green;
+    }
+    .s-testemunhas {
+        background: url(../img/law-bg02.jpg);
+    }
+    /*Fim dos 1- Estilos Globais*/
+
+    /* 2- Estilos de porfolio */
+    .s-portfolio {
+        background: #D86A39;
+    }
+    .s-portf-div2 > h1 {
+        margin: 58px 0 0 15px;
+        text-transform: uppercase;
+        color: rgba(189,189,180,1.00);
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .s-portf-nav {
+        margin-top: 30px;
+    }
+    .s-portf-nav > ul > li a {
+        padding: 15px 17px;
+        background: #C75D2E;
+        color: white;
+        border-radius: 40px;
+        text-decoration: none;
+        margin-top: 55px;
+    }
+    .s-portf-nav > ul > li {
+        margin-bottom: 14px;
+    }
+    @media screen and (min-width: 501px) and (max-width: 700px){
+        .s-portf-nav > ul > li {
+            margin-bottom: 34px;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .s-portf-nav > ul > li {
+            margin: 15px;
+        }
+    }
+    @media screen and (min-width: 700px){
+        .md-e-lg-com-padding-5 {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        .md-e-lg-sem-padding {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .margem-lg-md {
+            margin: 3px;
+        }
+    }
+    figure {
+        background: #C75D2E;
+    }
+    portfolio-imagens {
+        width: 100%;
+    }
+    figcaption > h3 {
+        color: white;
+        font-size: 13pt;
+        text-align: center;
+        margin-top: 5px;
+    }
+    figcaption > p {
+        color: burlywood;
+        font-size: 13pt;
+        text-align: center;
+        margin-top:10px;
+    }
+    /*FIm de 2- Estilos de porfolio*/
+    /* 3 -  Estilos de Testemunhas */
+    .s-testemunhas-testemunhas > h1 {
+        margin-top: 58px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        color: rgba(189,189,180,1.00);
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .s-testemunho-paragrafos > h2 {
+        color: white;
+    }
+    .s-testemunho-paragrafos > h4 {
+        color: #B9AEAE;
+        font-weight: bold;
+        padding-bottom: 45px;
+    }
+    .testimonial-content {
+        background: rgba(0,0,0,.3);
+    }
+    .testimonial-dark .testimonial-content::before {
+        border-color: rgba(0,0,0,.3) transparent transparent;
+    }
+    .testimonial-content::before {
+        position: absolute;
+        bottom: -14px;
+        left: 25px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 14px 14px 0 0;
+        content: '';
+        border-color: rgba(0,0,0,.8) transparent transparent;
+    }
+    *::after, *::before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .testimonial {
+        color: #fff;
+        padding: 5px;
+    }
+    .testimonial-author {
+        margin-bottom: 5px;
+    }
+    .testimonial-photo > p {
+        margin-bottom: -30px;
+    }
+
+    @media screen and (min-width: 1000px){
+        .mars {
+            top: -30px;
+        }
+    }
+    /*Fim de 3 -  Estilos de Testemunhas*/
+    /* 4 - Estilos de contactos */
+    .aside-menu > span > a >  img {
+        margin: -15px 0 0 -15px;
+    }
+    .contactos-principal {
+        height: 700px;
+        background:#232323 ;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .contactos-principal > section > h2 {
+        color: white;
+        margin: 50px 0;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    .contactos-principal > section > ul  {
+        margin: 0px 0px 50px 0;
+    }
+    .contactos-principal > section > ul > li  {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        line-height: 2;
+        list-style-type: square;
+        font-size: 11pt;
+    }
+
+    .contactos-principal > section >span {
+        color: white;
+        margin: 0px 50px;
+        background: #D86A39;
+        padding: 15px 15px;
+        border-radius: 70px;
+
+    }
+    .contactos-principal > section >span:hover {
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+    .contactos-principal > section > h4 {
+        margin: 80px 0 0 0;
+        padding: 5px;
+        color: white;
+    }
+    .modal-body, .modal-dialog,.modal-footer,.modal-header {
+        padding: 2px;
+    }
+    .modal-dialog {
+        margin-top: 0;
+    }
+    #video {
+        width: 101%;
+        height: 101%;
+        margin-left: 10px;
+    }
+    .modal-title {
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 0;
+    }
+
+    @media screen and (max-width: 990px){
+        .modal-body #video {
+            width: 95%;
+            height: 100%;
+            margin-left: 12px;
+        }
+        .modal-title {
+            font-size: 20px;
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 0;
+        }
+    }
+
+    .audeo-img {
+        background: red;
+        padding: 10px;
+        margin: 10px;
+    }
+    .audeo-img > audio {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .audeo-img img {
+        width: 100px;
+        height: 100px;
+    }
+    @media screen and (min-width: 991px){
+        .col-md-5 {
+            width: 48.5%;
+        }
+        .audeo-img {
+            background: rgba(120,120,120,.8);
+            padding: 10px;
+            margin: 5px 0 10px 13px;
+        }
+    }
+    @media screen and (max-width: 990px){
+        .audeo-img {
+            background: rgba(0,0,0,.5);
+        }
+    }
+
+    .contactos-form {
+        float: right;
+        width: 320px;
+        height: 700px;
+        right: 0;
+        background: #D86A39;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    @media screen and (max-width: 500px){
+        .contactos-form {
+            width: 300px;
+        }
+    }
+    .contactos-form > header {
+        height: 110px;
+        background: none;
+    }
+    .contactos-form .imagem-contact,.contact-close {
+        border-radius: 100px;
+    }
+    .contact-close {
+        margin-top: 25px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+    }
+    .contact-close:hover {
+        background: #D86A39;
+        border: 2px solid #fff;
+    }
+    .contactos-form .imagem-contact {
+        margin-top: 5px;
+        width: 80px;
+        height: 80px;
+    }
+    /*Fim de 4 - Estilos de contactos*/
+
+</style>
