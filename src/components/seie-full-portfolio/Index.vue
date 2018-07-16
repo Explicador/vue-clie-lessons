@@ -75,7 +75,7 @@
           <section id="s-resumo" class="row s-resumo"> <!--Inicio da section 02 Resumo -->
 
               <section class="div-oculto col-md-3 hidden-ms hidden-xs" style="color: rgba(0,0,0,.0);">Espacamento 01</section>
-              <section class="col-md-9 sresumo-linha1" style="float: right"> <!--Inicio  da primeira linhas com 3 divs -->
+              <section class="col-md-9 sresumo-linha1"> <!--Inicio  da primeira linhas com 3 divs -->
                   <h1>Resumo</h1>
                   <section class="resumo-sobre col-md-4"><!--Inicio de Sobre -->
 
@@ -916,7 +916,8 @@ export default {
         padding: 0px;
     }
     .sresumo-linha1 > h1{
-        margin-top: 58px;
+        /*margin-top: 8px;*/
+        margin-bottom: 30px;
         text-transform: uppercase;
         color: rgba(189,189,180,1.00);
         font-size: 10pt;
